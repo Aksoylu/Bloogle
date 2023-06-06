@@ -1,0 +1,33 @@
+{
+  "name": "node-js-executable",
+  "version": "1.0.0",
+  "description": "A boilerplate to create JavaScript binary executable files using Node.",
+  "bin": "app.js",
+  "pkg": {
+    "assets": [
+      "node_modules/**/*",
+      "system/**/*",
+      "www/**/*",
+      "/*"
+    ],
+    "targets": [
+      "node10-linux-x64",
+      "node10-win-x64"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "deasync": "^0.1.28",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsdom": "^20.0.0",
+    "mongodb": "^4.9.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "validator": "^13.7.0"
+  }
+}

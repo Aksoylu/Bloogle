@@ -1,0 +1,7 @@
+{
+  "name": "ideasphere_frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
